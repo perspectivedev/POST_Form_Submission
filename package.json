@@ -1,0 +1,16 @@
+{
+  "name": "post_form_submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "author": "Marvis Knight",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwind": "^4.0.0"
+  }
+}
